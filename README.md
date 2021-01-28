@@ -1,13 +1,13 @@
 # 重要的事情说三遍
-### 这不是原作者库，原库[传送门](https://github.com/LXK9301/jd_scripts)
-## 这不是原作者库，原库[传送门](https://github.com/LXK9301/jd_scripts)
-# 这不是原作者库，原库[传送门](https://github.com/LXK9301/jd_scripts)
+### 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
+## 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
+# 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
 
 ### 本库特别声明:
-### 当前库并不保证同步[作者](https://github.com/LXK9301)所有代码，并且随时可能停更，禁止fork。建议访问[原库](https://github.com/LXK9301/jd_scripts)
+### 当前库并不保证同步[作者](https://github.com/LXK9301)所有代码，并且随时可能停更，禁止fork。建议访问[原库](https://gitee.com/lxk0301/jd_scripts.git)
 
 # 原作者赞赏码(开发维护不易,请赏杯茶水费)
-<div align=center><img width="250" height="250" src="https://raw.githubusercontent.com/LXK9301/jd_scripts/master/icon/thanks.jpg"/></div>
+<div align=center><img width="250" height="250" src="https://gitee.com/lxk0301/jd_scripts/raw/master/icon/thanks.jpg"/></div>
 
 ## 特别声明:
 
@@ -35,11 +35,11 @@
 
  - 使用教程看 [GitHub Action教程](githubAction.md)
  - GitHub Action 定时运行会有延迟(大概15分钟左右),故一些需要抢购(对时间要求比较严格)脚本不适合使用(例如`jd_joy_reward.js`, `jd_blueCoin.js`等脚本)
- - GitHub Action可能用到的[Secrets集合](https://github.com/LXK9301/jd_scripts/blob/master/githubAction.md)
+ - GitHub Action可能用到的[Secrets集合](https://gitee.com/lxk0301/jd_scripts.git/blob/master/githubAction.md)
  - `jd_crazy_joy_coin.js`并不适合`actions`的方式运行，故改为每小时运行一次，每次挂机两次。建议使用本地电脑单独运行。
  - 自动同步代码[教程](https://github.com/fm1223/jd-scripts/blob/master/githubAction.md#%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5fork%E5%90%8E%E7%9A%84%E4%BB%A3%E7%A0%81)
 
-# 只保留了本仓库适合的食用方式，其它方式请访问[原库](https://github.com/LXK9301/jd_scripts)。
+# 只保留了本仓库适合的食用方式，其它方式请访问[原库](https://gitee.com/lxk0301/jd_scripts.git)。
 
 
 ### 特别感谢(排名不分先后)：
