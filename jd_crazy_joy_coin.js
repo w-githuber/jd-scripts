@@ -181,6 +181,7 @@ if ($.isNode()) {
       }
     }
     $.log(`\n\n`)
+    process.exit(0)
   }
 })()
   .catch((e) => {
