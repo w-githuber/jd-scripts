@@ -46,6 +46,7 @@ jobs:
           node jx_sign.js # 京喜签到+双签到
           node jd_coupon.js # 源头好物红包
           node jd_festival.js # 京东手机年终奖
+          node jd_mh.js # 盲盒抽京豆  2021年1月6日～2021年2月5日
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
