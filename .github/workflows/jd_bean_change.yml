@@ -45,6 +45,7 @@ jobs:
           node jd_rankingList.js # 京东排行榜
           node jx_sign.js # 京喜签到+双签到
           node jd_coupon.js # 源头好物红包
+          node jd_festival.js # 京东手机年终奖
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
@@ -59,3 +60,4 @@ jobs:
           JD_818_SHAREID_NOTIFY: ${{ secrets.JD_818_SHAREID_NOTIFY }}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
           JD_CASH_SHARECODES: ${{ secrets.JD_CASH_SHARECODES }}
+          JSMOBILEFESTIVAL_SHARECODES: ${{ secrets.JSMOBILEFESTIVAL_SHARECODES }}
