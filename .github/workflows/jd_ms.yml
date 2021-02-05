@@ -1,16 +1,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: jd_5g
+name: jd_ms
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16,22,4,12 * * *' # 0 0,6,12,18 * * *
+    - cron: '0 23 * * *' #10 7 * * *
   watch:
     types: started
   repository_dispatch:
-    types: 5g
+    types: ms
 jobs:
   build:
 
@@ -35,10 +35,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【5G狂欢城】'
+      - name: '运行 【京东秒秒币】'
         run: |
-          node jd_5g.js
-          node jd_818.js
+          node jd_ms.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
@@ -51,5 +50,4 @@ jobs:
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
-          JD_818_SHAREID_NOTIFY: ${{ secrets.JD_818_SHAREID_NOTIFY }}
-          JD818_SHARECODES: ${{ secrets.JD818_SHARECODES }}
+          MONEY_TREE_SELL_FRUIT: ${{ secrets.MONEY_TREE_SELL_FRUIT }}

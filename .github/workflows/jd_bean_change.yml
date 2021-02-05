@@ -43,8 +43,9 @@ jobs:
           node jd_syj.js # 十元街
           node jd_bean_home.js # 领京豆额外奖励&抢京豆
           node jd_rankingList.js # 京东排行榜
-          # node jd_cash.js # 签到领现金
           node jx_sign.js # 京喜签到+双签到
+          node jd_festival.js # 京东手机年终奖
+          node jd_mh.js # 盲盒抽京豆  2021年1月6日～2021年2月5日
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
@@ -59,3 +60,4 @@ jobs:
           JD_818_SHAREID_NOTIFY: ${{ secrets.JD_818_SHAREID_NOTIFY }}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
           JD_CASH_SHARECODES: ${{ secrets.JD_CASH_SHARECODES }}
+          JSMOBILEFESTIVAL_SHARECODES: ${{ secrets.JSMOBILEFESTIVAL_SHARECODES }}
