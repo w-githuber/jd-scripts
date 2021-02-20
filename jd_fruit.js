@@ -25,7 +25,7 @@ jd免费水果 搬的https://github.com/liuxiaoyucc/jd-helper/blob/a6f275d978574
 */
 const $ = new Env('东东农场');
 let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, newShareCodes;
-//助力好友分享码(最多4个,否则后面的助力失败),原因:京东农场每人每天只有四次助力机会
+//助力好友分享码(最多3个,否则后面的助力失败),原因:京东农场每人每天只有3次助力机会
 //此此内容是IOS用户下载脚本到本地使用，填写互助码的地方，同一京东账号的好友互助码请使用@符号隔开。
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = ['']
@@ -610,7 +610,7 @@ async function getExtraAward() {
 async function masterHelpShare() {
   console.log('开始助力好友')
   let salveHelpAddWater = 0;
-  let remainTimes = 4;//今日剩余助力次数,默认4次（京东农场每人每天4次助力机会）。
+  let remainTimes = 3;//今日剩余助力次数,默认3次（京东农场每人每天3次助力机会）。
   let helpSuccessPeoples = '';//成功助力好友
   console.log(`格式化后的助力码::${JSON.stringify(newShareCodes)}\n`);
 
