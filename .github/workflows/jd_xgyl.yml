@@ -35,9 +35,8 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【小鸽有礼】&【小鸽有礼2】'
+      - name: '运行【小鸽有礼2】'
         run: |
-          node jd_xg.js 
           node jd_xgyl.js 
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
