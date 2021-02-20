@@ -61,6 +61,7 @@ if ($.isNode()) {
     }
     $.log(`\n\n`)
   }
+  process.exit(0)
 })()
   .catch((e) => {
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
