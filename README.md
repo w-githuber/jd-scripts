@@ -1,13 +1,16 @@
-# 重要的事情说三遍
+
+# 本项目已停止更新
+
+## 重要的事情说三遍
 ### 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
-## 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
-# 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
+### 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
+### 这不是原作者库，原库[传送门](https://gitee.com/lxk0301/jd_scripts.git)
 
 ### 本库特别声明:
 ### 当前库并不保证同步[作者](https://github.com/LXK9301)所有代码，并且随时可能停更，禁止fork。建议访问[原库](https://gitee.com/lxk0301/jd_scripts.git)
 
 # 原作者赞赏码(开发维护不易,请赏杯茶水费)
-<div align=center><img width="250" height="250" src="https://gitee.com/lxk0301/jd_scripts/raw/master/icon/thanks.jpg"/></div>
+<div align=center><img width="250" height="250" src="https://gitee.com/lxk0301/jd_docker/raw/master/icon/thanks.jpg"/></div>
 
 ## 特别声明:
 
@@ -27,8 +30,6 @@
 
  **您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**  </br>
 > ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读*** 
-
-# 本项目已停止更新
 
 ### 郑重声明：原库大佬已被官方删库两次，故本仓库fork超过100则自动删库，请勿传播。
 
