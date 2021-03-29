@@ -38,7 +38,12 @@ jobs:
           npm install
       - name: '运行 【京豆签到脚本】'
         run: |
-          node jd_bean_sign.js
+          node jd_bean_sign.js # 京东多合一签到
+          node jd_kd.js # 京东快递签到
+          node jd_syj.js # 十元街
+          node jd_bean_home.js # 领京豆额外奖励&抢京豆
+          node jd_rankingList.js # 京东排行榜
+          node jx_sign.js # 京喜签到+双签
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
