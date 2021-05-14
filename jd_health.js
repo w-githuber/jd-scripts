@@ -3,8 +3,9 @@ author: 疯疯
 东东健康社区
 更新时间：2021-4-22
 活动入口：京东APP首页搜索 "玩一玩"即可
+00
 
-脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+....脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ===================quantumultx================
 [task_local]
 #东东健康社区
@@ -293,7 +294,7 @@ function shareCodesFormat() {
       const tempIndex = $.index > inviteCodes.length ? (inviteCodes.length - 1) : ($.index - 1);
       $.newShareCodes = inviteCodes[tempIndex].split('@');
     }
-    const readShareCodeRes = await readShareCode();
+    const readShareCodeRes = undefined//await readShareCode();
     if (readShareCodeRes && readShareCodeRes.code === 200) {
       $.newShareCodes = [...new Set([...$.newShareCodes, ...(readShareCodeRes.data || [])])];
     }
