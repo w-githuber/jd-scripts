@@ -1,16 +1,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: jd_nzmh
+name: jd_jin_tie
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15,13 * * *'
+    - cron: '1 16 * * *'
   watch:
-    types: [started]
+    types: started
   repository_dispatch:
-    types: nzmh
+    types: jin_tie
 jobs:
   build:
 
@@ -35,19 +35,19 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【女装盲盒】'
+      - name: '运行 【领金贴】'
         run: |
-          node jd_nzmh.js
+          node jd_jin_tie.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
+          JOY_FEED_COUNT: ${{ secrets.JOY_FEED_COUNT }}
+          JOY_RUN_FLAG: ${{ secrets.JOY_RUN_FLAG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
-          PETSHARECODES: ${{ secrets.PETSHARECODES }}
+          BARK_SOUND: ${{ secrets.BARK_SOUND }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
-          PET_NOTIFY_CONTROL: ${{ secrets.PET_NOTIFY_CONTROL }}
-          BARK_SOUND: ${{ secrets.BARK_SOUND }}
           DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
