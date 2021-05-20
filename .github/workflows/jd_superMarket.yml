@@ -57,3 +57,4 @@ jobs:
           JOIN_PK_TEAM: ${{ secrets.JOIN_PK_TEAM }}
           SUPERMARKET_LOTTERY: ${{ secrets.SUPERMARKET_LOTTERY }}
           SUPERMARKET_UPGRADE: ${{ secrets.SUPERMARKET_UPGRADE }}
+          MARKET_COIN_TO_BEANS: ${{ secrets.MARKET_COIN_TO_BEANS }}
