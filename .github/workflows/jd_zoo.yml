@@ -6,7 +6,7 @@ name: jd_zoo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16,04 * * *' # 5 * * * *
+    - cron: '0 */1 * * *' # 5 * * * *
   watch:
         types: started
   repository_dispatch:
